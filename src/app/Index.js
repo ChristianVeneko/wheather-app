@@ -12,4 +12,6 @@ async function fetchLatLon(){
     console.log(data);
 }
 
+fetchLatLon()
+
 document.addEventListener('DOMContentLoaded', fetchWeather);

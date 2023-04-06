@@ -10,7 +10,14 @@ export class Weather{
 
     async getLatLon(){
         const URL= `http://api.openweathermap.org/geo/1.0/direct?q=${this.city},${this.countryCode}&limit=5&appid=${this.apikey}`
-        await fetch(URL)
+        const response = await fetch(URL, {
+            method: "GET"
+        })
+        const data = response.json()
         return data
+    }
+
+    async getWeather(){
+        const URL= ``
     }
 }
