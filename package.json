@@ -1,7 +1,7 @@
 {
   "name": "app-clima",
   "version": "1.0.0",
-  "description": "",
+  "description": "App del clima que sigue el tutorial de faztWeb, agregue algunos cambios por las actualizaciones de la API y webpack",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
